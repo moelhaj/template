@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export default function Hero() {
 	return (
 		<div className="min-h-screen text-white relative bg-gray-100">
-			<div className="absolute inset-0 w-full z-20 bg-gradient-to-r from-cyan-500 to-blue-500 lg:w-[100%] gradient" />
+			<div className="absolute inset-0 z-20 bg-gradient-to-r from-cyan-500 to-blue-500 h-[66%] w-[160%] lg:w-[100%] lg:h-[100%] gradient" />
 
 			<div className="w-full h-full max-w-7xl mx-auto flex flex-col lg:flex-row">
 				<div className="relative flex-1 py-20">
